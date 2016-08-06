@@ -1,0 +1,100 @@
+[
+{
+    "name": "Disappearing Chocolate Cake",
+    "price": 12.00,
+    "category": "cake",
+    "description": "Three layers of dense chocolate cake, frosted and filled with rich chocolate buttercream. It will be gone before you can say ‘Abracadabra’.",
+    "image_url": "http://www.trbimg.com/img-56bb5c15/turbine/la-fo-proof-chocolate-cake-20160213",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": " Blueberry Muffins",
+    "price": 12.00,
+    "category": "bread",
+    "description": "Chocked full of plump juicy blueberries and baked to a golden brown, our muffins will make your mother jealous of our recipe.",
+    "image_url": "http://www.moorecookin.com/wp-content/uploads/2013/05/classic-blueberry-muffins.jpg",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": "Nutella Brownies",
+    "price": 12.00,
+    "description": "These Truffle Brownies looks so fudgy and dense. The recipe looks very involved – and completely worth it!",
+    "image_url": "https://a.dilcdn.com/bl/wp-content/uploads/sites/8/2010/07/nutellabrownies_fpd.jpg",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": "Bread Pudding with Spiced Rum Sauce",
+    "price": 12.00,
+    "category": "bread",
+    "description": "The traditional dessert for a South Louisiana meal served with our Captain Morgan Spiced Rum Sauce.",
+    "image_url": "http://www.notyouraveragejoes.com/wp-content/uploads/2012/11/cherrychocbreadpud1.jpg",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": "Chocolate Bread Pudding",
+    "price": 12.00,
+    "category": "bread",
+    "description": "Semi Sweet Dark Chocolate Chips are the Seasonings We also add heavy whipping cream, butter and mounds of Louisiana cane sugar to our French Bread based Bread Pudding.",
+    "image_url": "http://www.tablespoon.com/-/media/Images/Articles/PostImages/2011/02/week3/2011-02-14-chocolatebreadpudding1-500w.jpg?la=en",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": "Chocolate Brownies",
+    "price": 12.00,
+    "category": "brownie",
+    "description": " Custom Catering's own fresh fudge chocolate brownies full of pecans, chocolate, and farm fresh butter!",
+    "image_url": "https://www.meals.com/imagesrecipes/144809lrg.jpg",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": "Orange Slices",
+    "price": 12.00,
+    "category": "candy",
+    "description": "Tasty orange",
+    "image_url": "http://scene7.targetimg1.com/is/image/Target/17096694?wid=480&hei=480",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": " King Cake",
+    "price": 12.00,
+    "category": "cake",
+    "description": "Tradition has it that if you get The Baby you have to throw the nextparty, so ya better be careful in your selection of slices!!  Our King Cakes are filled with cheese and flavored with cinnamon and nutmeg.",
+    "image_url": "http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2008/12/23/0/FNmag_King_Cake-image_s4x3.jpg.rend.sniipadlarge.jpeg",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": "Christmas Cookies",
+    "price": 12.00,
+    "category": "cookies",
+    "description": "These festive sugar cookies are decorated in bright reds and greens and make that perfect bite sized treet, Ho Ho Ho!!",
+    "image_url": "http://ifamilykc.com/blog/wp-content/uploads/2012/12/christmas-cookies.jpg",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": "Chocolate Chip Cookie",
+    "price": 12.00,
+    "category": "cookies",
+    "description": " Our large chocolate chip cookie is packed with what ya want most!!!",
+    "image_url": "http://d1doqjmisr497k.cloudfront.net/~/media/Recipe-Photos/McCormick/Dessert/1007x545/Vanilla-Rich-Chocolate-Chip-Cookies.ashx?vd=20130326T174822Z&hash=11AFAF1CB28757DD46C3C6E6C5DF936A7F126126",
+    "is_vegan": false,
+    "is_gluten_free": false
+  },
+  {
+    "name": "Candy Bars",
+    "price": 12.00,
+    "category": "candy",
+    "description": " Candy bars offer quick energy and are the perfect dessert for a picnic lunch.",
+    "image_url": "http://img.foodnetwork.com/FOOD/2012/02/16/HE_candy-bar_s4x3_lead.jpg",
+    "is_vegan": false,
+    "is_gluten_free": false
+  }
+]

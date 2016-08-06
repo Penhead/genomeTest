@@ -12,9 +12,8 @@ The project will now be running on locahost:7777
 ###Project Notes
 ####Api
 I want to walk through my thought process when starting this project.  
-* I first saw that I needed an api of some sort that wasn't provided. So I created my own using expressjs. You can find my server.js  
-file in ```config/server.js```.  
-*I saw that I need two query types for the api. So I have the api looking for ?query= and ?category=  
+* I first saw that I needed an api of some sort that wasn't provided. So I created my own using expressjs. You can find my server.js file in ```config/server.js```.  
+* I saw that I need two query types for the api. So I have the api looking for ?query= and ?category=  
 * I have a very simple algorithm running to parse the strings and bring back results that match what in the "database"  
 * The database is a json file with dummy data in it so its not connect to a real database.  
 

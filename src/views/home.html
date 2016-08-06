@@ -1,22 +1,47 @@
 <div class="row homeContainer">
+    <div class="columns small-12">
+        <input placeholder="search menu" ng-model="query" type="text" />
+        <div class="row">
+            <div class="small-12 columns">
+                <button ng-click="searchQuery(false)" class="queryBtn" type="button">Search</button>
+            </div>
 
-    <input placeholder="search menu" ng-model="query" type="text" />
-    <button ng-click="searchQuery(false)" type="button">Search</button>
-    <button ng-click="searchQuery(true)" type="button">All Desserts</button>
-
-    <div class="categoryBar">
-        <span>Filter:  </span>
-        <span ng-click="searchCategory('bread')">Bread</span>|
-        <span ng-click="searchCategory('brownie')">Brownies</span>|
-        <span ng-click="searchCategory('cookies')">Cookies</span>|
-        <span ng-click="searchCategory('cake')">Cakes</span>|
-        <span ng-click="searchCategory('candy')">Candy</span>
-
+        </div>
+        <div class="categoryBar">
+            <span class="noCursor">Show:  </span>
+            <span ng-click="searchQuery(true)" >All </span> |
+            <span ng-click="searchCategory('bread')">Breads</span>|
+            <span ng-click="searchCategory('brownie')">Brownies</span>|
+            <span ng-click="searchCategory('cookies')">Cookies</span>|
+            <span ng-click="searchCategory('cake')">Cakes</span>|
+            <span ng-click="searchCategory('candy')">Candy</span>
+            <div class="form-group">
+                <span class="noCursor"> Filter: </span>
+                <label class="checkbox-inline">
+                    <input type="checkbox" ng-change="checkBoxFilter(data)" name="favoriteColors" ng-model="isVegan"> Vegan
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" ng-change="checkBoxFilter(data)" name="favoriteColors" ng-model="isGlutenFree"> Gluten Free
+                </label>
+            </div>
+        </div>
     </div>
-    <div class="results row small-up-1 medium-up-2 large-up-4">
-        <div class="resultsItem column" ng-repeat="item in data">
-            <h5>{{item.name}}</h5>
-            <img ng-src="{{item.image_url}}" />
+    <div class="results small-up-1 large-up-4">
+        <div class="resultsItem column" ng-repeat="item in data | filter: filterResults">
+              <div class="animated zoomIn">
+                  <h5>{{item.name}}</h5>
+                  <img ng-src="{{item.image_url}}" />
+                  <div class="content">
+                      <p>{{item.description}}</p>
+                      <p><b>Price:</b> {{ item.price | currency }}</p>
+                      <p><b>Gluten Free:</b> {{ item.is_gluten_free == true ? "Yes" : "No" }}</p>
+                      <p><b>Vegan:</b> {{ item.is_vegan == true ? "Yes" : "No" }}</p>
+                      <p><b>Category:</b> {{item.category}}</p>
+                  </div>
+              </div>
+        </div>
+        <div ng-show="hasMadeQuery && trackResults === 0">
+            No Search Results Found
         </div>
     </div>
 </div>
